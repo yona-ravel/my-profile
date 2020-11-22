@@ -79,19 +79,26 @@ a:hover {color: #fec45b;}
 	text-align: justify;
 	}
 
-.interest-background {
-	width: 750px;
-	}
-@media (max-width: 720px) {
-	.interest-background {
-		width: 500px;
-		}
-	}
-@media (max-width: 540px) {
-	.interest-background {
-		width: 300px;
-		}
-	}
+.banner {
+	background-image: url(images/musique.png);
+	padding: 120px 0px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 20px;
+}
+
+#music-banner {
+	background-image: url("images/musique.png");
+}
+
+#travel-banner {
+	background-image: url("images/voyage.png");
+}
+
+#ecology-banner {
+	background-image: url("images/ecologie.png");
+	padding-bottom: 94px;
+}
 
 .list-inline {
 	list-style: none;
